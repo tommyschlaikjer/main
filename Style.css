@@ -1,0 +1,206 @@
+
+/* Blinkfunction */
+.blink {
+	-webkit-animation: blink 1.75s linear infinite;
+	-moz-animation: blink 1.75s linear infinite;
+	-ms-animation: blink 1.75s linear infinite;
+	-o-animation: blink 1.75s linear infinite;
+	 animation: blink 1.75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+/*body redigering*/
+html body {
+    background-image: url('http://cdn.odishatv.in/wp-content/uploads/2017/10/fire_2.jpg');
+    color:grey;
+
+}
+
+/*element redigering */
+
+
+table
+{
+    background-color: rgba(220, 127, 127, 0.45);
+    color: black;
+}
+img {
+    margin-left: 5px;
+    padding:5px;
+    border:2px solid rgb(255, 95, 0);
+    background-color:rgba(255, 147, 0, 0.33);
+  }
+
+
+  h2
+  {
+      color:white;
+  }
+
+/* klasse justering - brugt til index.html */
+.jumbotron
+{
+    height: 180px;
+    background-color: black;
+    color: white;
+}
+
+
+.navbar
+{
+    background-color: black;
+    font-size: 20px;
+
+}
+
+
+.col-lg-3
+{
+    color:white;
+}
+
+/* Mark color. Bruges til window-sizing*/
+
+.visible-xs-block mark
+{
+
+    background-color: red;
+}
+
+.visible-sm-block mark
+{
+
+    background-color: yellow;
+}
+
+.visible-md-block mark
+{
+
+    background-color: green;
+}
+
+.visible-lg-block mark
+{
+
+    background-color: teal;
+}
+
+
+
+
+/* ID-redigering */
+
+/*############### about.html ###############*/
+
+#btnreadmore
+{
+    background-color: rgba(211, 30, 30, 0.76);
+    border: 2px;
+    font-size: 20px;
+    color:white;
+
+}
+
+#aboutpanelbody{
+    background-image: url("http://www.synergytint.com/wp-content/uploads/Certified.png");
+    height: 300px;
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size: 150px;
+    
+}
+
+#aboutpanel
+{
+    background-color: rgba(66, 62, 62, 0.45);
+}
+
+#wellbody
+{
+    background-color: rgba(66, 62, 62, 0.45);
+}
+
+
+/*############### buy.html ############### */
+
+
+
+#btnbuy
+{
+    background-color: rgba(45, 30, 211, 0.76);
+    font-size: 20px;
+    color:white;
+
+}
+
+
+
+#buycontainer
+{
+    width: 500px;
+}
+
+
+
+#selectmonth,#selectyear
+{
+    width: 114px;
+    display: inline;
+    text-align: center;
+}
+
+
+#buywell
+{
+    background-color: rgba(66, 62, 62, 0.45);
+    background-image: url("https://cdn.drawception.com/images/panels/2012/4-12/Wrfjm7xhfm-2.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right bottom;
+}
+
+#securitynum
+{
+    display: inline;
+    width: 50px;
+}
+
+#htmlimg,#cssimg,#bsimg
+{
+    background-color:white;
+}
+
+#bonzi
+{
+    background-color: rgba(0, 0, 0, 0.00);
+    border: none;
+}
